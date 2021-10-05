@@ -13,11 +13,21 @@
 
 ### Filenames example
 
-* components
+- * components
     * MyComponent.vue
     * ~~myComponent.vue~~
     * ~~mycomponent.vue~~
     * ~~my-component.vue~~
+
+  - In components
+    ```vue
+    <script>
+      export default {
+        name: 'MyComponent' // good
+        name: 'myComponent' // bad
+        name: 'my-omponent' // bad
+      }
+    </script>
 
 ### Base component example
 
