@@ -146,3 +146,6 @@ Name conflicts (e.g. multiple ButtonDelete.vue components) make it more difficul
 Refactoring becomes more difficult, because find-and-replace often isn’t sufficient to update relative references to a moved component.
 
 ![highest level component](images/highest-level-component.png)
+
+
+[Vue official style guide](https://vuejs.org/v2/style-guide/#Multi-word-component-names-essential)
