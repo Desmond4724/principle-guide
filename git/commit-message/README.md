@@ -9,6 +9,12 @@ Begin your message with a short summary of your changes (up to 50 characters as 
  
 Use the imperative, present tense („change“, not „changed“ or „changes“) to be consistent with generated messages from commands like git merge.
 
+# Example 
+- If applied, this commit will refactor subsystem X for readability
+- If applied, this commit will update getting started documentation
+- If applied, this commit will remove deprecated methods
+- If applied, this commit will release version 1.0.0
+- If applied, this commit will merge pull request #123 from user/branch
 
 # The seven rules of a great Git commit message
 
