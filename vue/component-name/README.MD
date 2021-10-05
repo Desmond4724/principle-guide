@@ -25,7 +25,7 @@
       export default {
         name: 'MyComponent' // good
         name: 'myComponent' // bad
-        name: 'my-omponent' // bad
+        name: 'my-component' // bad
       }
     </script>
 
