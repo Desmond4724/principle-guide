@@ -5,5 +5,5 @@
 - Create a new repository if you do not have one on [Github](https://github.com) or [Gitlab](https://gitlab.com)
 - Checkout to a new branch for this task
 - Check the folder 'components' of the project
-- In the 'components' folder, there are a number of files which are named in the wrong format. Find them and improve by this ([methodology](https://github.com/Desmond4724/principle-guide/tree/master/vue/component-name#single-component-example))
+- In the 'components' folder, there are a number of files which are named in the wrong format. Find them and improve by this ([methodology](../../#single-component-example))
 - Push the project
