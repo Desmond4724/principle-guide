@@ -28,6 +28,14 @@
         name: 'my-component' // bad
       }
     </script>
+  - In template
+    ```vue
+    <template>
+        <MyComponent /> // bad
+        <my-component /> // bad
+        <myComponent /> // bad
+    </template>
+
 
 ### Base component example
 
