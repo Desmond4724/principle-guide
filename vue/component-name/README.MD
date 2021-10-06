@@ -11,6 +11,8 @@
 - Component names should start with the highest-level (often most general) words and end with descriptive modifying
   words. ([more](#highest-level-component-example))
 
+
+
 ### Filenames example
 
 - * components
@@ -35,6 +37,8 @@
         <my-component /> // bad
         <myComponent /> // bad
     </template>
+
+
 
 
 ### Base component example
@@ -73,6 +77,9 @@ requireComponent.keys().forEach(function (fileName) {
 })
 ```
 
+
+
+
 ### Single component example
 
 * components
@@ -80,6 +87,8 @@ requireComponent.keys().forEach(function (fileName) {
     * TheFooter.vue
     * ~~Heading.vue~~
     * ~~MySidebar.vue~~
+
+
 
 ### Child component example
 
@@ -108,6 +117,8 @@ This isn’t recommended, as it results in:
 - which increases the time it takes to browse components in an editor’s sidebar.
 
 ![Child component example](images/tightly-coupled-image-1.png)
+
+
 
 
 ### Highest level component example
