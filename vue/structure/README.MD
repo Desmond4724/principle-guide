@@ -98,7 +98,7 @@ VUE_APP_BASE_URL=some_value
 Note that only NODE_ENV, BASE_URL, and variables that start with VUE_APP_ will be statically embedded into the client bundle with webpack.DefinePlugin. It is to avoid accidentally exposing a private key on the machine that could have the same name. ([For more](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables))
 
 
-####Agar vite ishlatyotgan bo'lsangiz.
+####If you are using vite.
 Loaded env variables are also exposed to your client source code via import.meta.env.
 To prevent accidentally leaking env variables to the client, only variables prefixed with VITE_ are exposed to your Vite-processed code. e.g. the following file:([For more](https://vitejs.dev/guide/env-and-mode.html))
 ```dotenv
