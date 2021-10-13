@@ -43,9 +43,7 @@ This directory contains your Vuex store files.
 
 ### `/src/constant.js`
 
-Bu faylda proyektda ishlatiladigan uzgarmas ma'lumotlar saqlanadi.
-Va const lar export qilinadi.
-Masalan User rollari:
+In this file only unchangeable variables should be stored. For example user's roles:
 ```js
 export const USER_ROLES = {
   "ADMIN": "Admin",
@@ -54,7 +52,7 @@ export const USER_ROLES = {
 }
 ```
 
-Va kerak joyda import qilib ishlatilinadi.
+and they can be imported where they are needed.
 
 ```vue
 ...
@@ -69,7 +67,7 @@ Va kerak joyda import qilib ishlatilinadi.
     },
     mounted() {
       if(this.user.role === USER_ROLES['ADMIN']) {
-        // qanaqadir ish bajariladi 
+        // some work can be here 
       }
     }
   }
@@ -77,11 +75,11 @@ Va kerak joyda import qilib ishlatilinadi.
 ```
 
 
-><span style="color: #ff6985">Bu faylda har xil manupulyatsiyalar qilish, funksiyalar yozish yoki qanaqadir logikalar ishlatish qatiyan man etiladi</span>
+><span style="color: #ff6985">In this file any kind of manipulations, logics and functions mustn't be written.</span>
 
 
 ### `.env`
-Bu faylda project uchun kerakli uzgarmas ma'lumotlar saqlanadi. 
+In this file all of the necessary unchangeable data should be stored.
 ```
 .env                # loaded in all cases
 .env.local          # loaded in all cases, ignored by git
@@ -93,7 +91,7 @@ Bu faylda project uchun kerakli uzgarmas ma'lumotlar saqlanadi.
 Environment variables are embedded into the build, meaning anyone can view them by inspecting your app's files.
 
 
-####Agar vue cli ishlatyogan bo'lsangiz.
+####If you are using vue cli:
 ```dotenv
 VUE_APP_BASE_URL=some_value
 ```
