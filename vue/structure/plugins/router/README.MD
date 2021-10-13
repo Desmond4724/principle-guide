@@ -70,7 +70,7 @@ export const routes = [
 </script>
 ```
 
-- Always use slashes appropriately before pathnames. Take following About.vue file and AboutDetails.vue file as an example. In this certain scenario slash isn't used before about-details path because here the main goal is to show AboutDetails.vue file's content when user goes to '/about/about-details'. If slash was used like '/about-details', AboutDetails.vue file's content would be visible when user went to '/about-details' path. For more information click ([here](https://router.vuejs.org/guide/essentials/nested-routes.html)).
+- Always use slashes appropriately before pathnames. Take following About.vue file and AboutDetails.vue file as an example. In this certain scenario slash isn't used before about-details path because here the main goal is to show AboutDetails.vue file's content when user goes to '/about/about-details'. If slash was used like '/about-details', AboutDetails.vue file's content would be visible when user went to '/about-details' path. For more information click [here](https://router.vuejs.org/guide/essentials/nested-routes.html).
 
 ```js
 <script>
