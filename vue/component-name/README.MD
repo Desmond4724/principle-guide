@@ -33,7 +33,7 @@
   - In template
     ```vue
     <template>
-        <MyComponent /> // bad
+        <MyComponent /> // good
         <my-component /> // bad
         <myComponent /> // bad
     </template>
