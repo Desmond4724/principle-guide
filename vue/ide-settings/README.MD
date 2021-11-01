@@ -71,4 +71,7 @@ the Remove button or press Alt+Delete.
 
 ![Child component example](images/img_2.png)
 
+An unfamiliar words must be written in a line.
+![Child component example](images/img_3.png)
+
 [you can see more information](https://www.jetbrains.com/help/webstorm/eslint.html)
